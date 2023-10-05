@@ -1,0 +1,10 @@
+.inputHolder {
+  display: grid;
+  grid-auto-flow: column;
+  width: 80%;
+  gap: 2rem;
+}
+.form {
+  display: grid;
+  grid-auto-flow: row;
+}

@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap");
+
+.error {
+  color: #ff5959;
+  animation: shake 0.2s ease-in-out 0s 2;
+}
+.holder {
+  display: grid;
+  gap: 0.5rem;
+  grid-template-rows: 0.2fr 1fr 0.7fr;
+}
+label {
+  font-family: Poppins;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 3.5px;
+  text-transform: uppercase;
+  color: #716f6f;
+}
+input {
+  background-color: #ffffff;
+  padding: 0.5rem 1.5rem;
+  color: #000000;
+  border-radius: 8px;
+  border: 1px solid #dcdcdc;
+  font-family: Poppins;
+  font-weight: 700;
+  box-sizing: border-box;
+  width: 10rem;
+  height: 4.5rem;
+  font-size: 2rem;
+}
+p {
+  color: #ff5959;
+  font-family: Poppins;
+  font-size: 0.875rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+}
+input.error {
+  border: 1px solid #ff5959;
+}
+input:focus {
+  outline: none;
+  border: 1px solid #854dff;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.animate {
+  animation: spinit 0.2s 5;
+}
+@keyframes spinit {
+  0% {
+    top: 0em;
+  }
+  50% {
+    top: -5em;
+  }
+  100% {
+    top: -9em;
+  }
+}
+@keyframes shake {
+  0% {
+    margin-left: 0rem;
+  }
+  25% {
+    margin-left: 0.5rem;
+  }
+  75% {
+    margin-left: -0.5rem;
+  }
+  100% {
+    margin-left: 0rem;
+  }
+}
+@media (max-width: 390px) {
+  input {
+    width: 6rem;
+    height: 3.5rem;
+    font-size: 1.5rem;
+  }
+  label {
+    font-size: 0.75rem;
+  }
+  .holder {
+    grid-template-rows: 0.2fr 1fr 0.7fr;
+  }
+}
