@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "http://domidebogdan.github.io/react-age-calculator",
+  "homepage": "https://domidebogdan.github.io/react-age-calculator",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
