@@ -23,13 +23,13 @@
   gap: 0.5rem;
   grid-template-columns: 1fr 10fr;
 }
-@media (max-width: 390px) {
+@media (max-width: 767px) {
   .value {
-    font-size: 4.5rem;
+    font-size: 4rem;
     letter-spacing: -0.07rem;
   }
   .type {
-    font-size: 4.5rem;
+    font-size: 4rem;
     letter-spacing: -0.07rem;
   }
 }

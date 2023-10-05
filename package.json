@@ -1,16 +1,17 @@
 {
   "name": "react-age-calculator",
+  "homepage": "https://domidebogdan.github.io/react-age-calculator",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://domidebogdan.github.io/react-age-calculator",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "host": "vite --host"
   },
   "dependencies": {
     "react": "^18.2.0",

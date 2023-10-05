@@ -79,11 +79,13 @@ input::-webkit-inner-spin-button {
     margin-left: 0rem;
   }
 }
-@media (max-width: 390px) {
+@media (max-width: 767px) {
   input {
-    width: 6rem;
-    height: 3.5rem;
+    width: 5rem;
+    height: 2.5rem;
     font-size: 1.5rem;
+    padding: 0;
+    text-align: center;
   }
   label {
     font-size: 0.75rem;
